@@ -57,10 +57,11 @@ Also, this comment from the code (not the docs).
 > interface that expects tasklets but you have no need to suspend -- there's no
 > need to insert a dummy yield in order to make the tasklet into a generator.
 
-The `Future` constructor takes an optional second argument, `info`, describing
-the purpose of the future.
+The `Future` constructor takes an optional argument, `info`, describing the
+purpose of the future.
 
 These two are not equivalent, though I'm not sure exactly how they differ:
+
     # option 1
     @ndb.tasklet
     def get_feedback():
