@@ -70,4 +70,10 @@ These two are not equivalent, though I'm not sure exactly how they differ:
     feedback, responses = yield get_feedback(), get_responses()
 
     # option 2
-    feedback, responses = yield rpc_to_future(feedback_key.get_async()), get_responses()
+    feedback, responses = yield (rpc_to_future(feedback_key.get_async()),
+        get_responses())
+
+## 4:46 PM - When lint for a rebase fails
+
+When lint for a rebase fails don't use `hg commit --amend`, use `hg rebase
+--continue`.
