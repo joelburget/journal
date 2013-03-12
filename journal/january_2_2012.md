@@ -7,7 +7,7 @@
 `--base` / `-b`: Rebase this down to its greatest common ancestor with `dest`,
 onto `dest`.
 
-`--source` / `-c`: Rebase this and its descendants onto `dest`.
+`--source` / `-s`: Rebase this and its descendants onto `dest`.
 
 `source` and `base` differ because `source` brings its *descendants* to the new
 destination, while `base` brings its *ancestors*. `base` is easier to work with
