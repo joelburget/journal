@@ -77,4 +77,4 @@ Example Script
     git stash && git stash apply
 
 May want to run this from a cron job every hour? Probably not worth it in
-practice, plush it would have to be aware of which repos to back up.
+practice, plus it would have to be aware of which repos to back up.
