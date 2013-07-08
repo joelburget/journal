@@ -1,0 +1,6 @@
+[submodule "tamien"]
+	path = tamien
+	url = https://github.com/cpettitt/tamien.git
+[submodule "react-animations"]
+	path = react-animations
+	url = https://github.com/petehunt/react-animations.git
