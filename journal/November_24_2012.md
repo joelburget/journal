@@ -17,7 +17,7 @@ some really nice looking libraries:
 
 ## 10:51 PM - idioms
 
-From the Idris tutorial:
+From the [Idris tutorial](/files/idris-tut.pdf):
 
 > While do notation gives an alternative meaning to sequencing, idioms give an
 > alternative meaning to application.
