@@ -13,3 +13,5 @@ For example:
         '<span style="color: \1;">\2</span>'
 
 This allows you to manually accept or edit each of the changes.
+
+## [LLVM vs libjit](http://eli.thegreenplace.net/2014/01/15/some-thoughts-on-llvm-vs-libjit/)
